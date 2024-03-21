@@ -3,32 +3,59 @@ import time
 
 from story import wings_text
 
+class Wings:
+    """
+    Wings class for a text-based adventure game.
+    """
+def __init__(self):
+        """
+        Initialize the Wings game.
+        It creates an instance of the Wings game, using the
+        'wings_text' dictionary to define the game's storyline and
+        choices.
+        """
+        self.story_description = story_description
 
+def type_text(self, text, delay=0.03):
+        """
+        Print text with a typing effect.
+        """
+        for char in text:
+            sys.stdout.write(char)
+            sys.stdout.flush()
+            time.sleep(delay)
+        print()
 
+def display_intro(self):
+        """
+        Display the game's introduction.
+        """
+        # Credit for ASCII art: https://asciiart.website/index.php?art=transportation/airplanes adapted by me
 
+    print("""
+                                   ____,
+                                  /  / ]
+                                 /  /  ]
+    |      ,======--_________,. '  /___]     __    __ _                 
+    |_____/____|___)                 _,.>   / / /\ \ (_)_ __   __ _ ___ 
+   <|          |        G-Wings ,. '`       \ \/  \/ / | '_ \ / _` / __|
+    |\         |          ,. '`              \  /\  /| | | | | (_| \__ \
+    | `,_______|____,. '`                     \/  \/ |_|_| |_|\__, |___/
+      ^          \                                               |___/  
+     (_)        (_)
+    """)
+    self.type_text("""
+**----------------------------------------------------------------------------**
+                    Welcome to "Wings" - an adventure
+           that will challenge your sanity and flying expertise.
+**----------------------------------------------------------------------------**
+        """)
+        print("""
+         The goal of the game is to succesfully land your aircraft and survive!
+                  You will be challenged at every step.
+                          So choose wisely
 
-print("""
-'  WWWWWWWW                           WWWWWWWW iiii                                                        
-'  W::::::W                           W::::::Wi::::i                                                       
-'  W::::::W                           W::::::W iiii                                                        
-'  W::::::W                           W::::::W                                                             
-'   W:::::W           WWWWW           W:::::Wiiiiiiinnnn  nnnnnnnn       ggggggggg   ggggg    ssssssssss   
-'    W:::::W         W:::::W         W:::::W i:::::in:::nn::::::::nn    g:::::::::ggg::::g  ss::::::::::s  
-'     W:::::W       W:::::::W       W:::::W   i::::in::::::::::::::nn  g:::::::::::::::::gss:::::::::::::s 
-'      W:::::W     W:::::::::W     W:::::W    i::::inn:::::::::::::::ng::::::ggggg::::::ggs::::::ssss:::::s
-'       W:::::W   W:::::W:::::W   W:::::W     i::::i  n:::::nnnn:::::ng:::::g     g:::::g  s:::::s  ssssss 
-'        W:::::W W:::::W W:::::W W:::::W      i::::i  n::::n    n::::ng:::::g     g:::::g    s::::::s      
-'         W:::::W:::::W   W:::::W:::::W       i::::i  n::::n    n::::ng:::::g     g:::::g       s::::::s   
-'          W:::::::::W     W:::::::::W        i::::i  n::::n    n::::ng::::::g    g:::::g ssssss   s:::::s 
-'           W:::::::W       W:::::::W        i::::::i n::::n    n::::ng:::::::ggggg:::::g s:::::ssss::::::s
-'            W:::::W         W:::::W         i::::::i n::::n    n::::n g::::::::::::::::g s::::::::::::::s 
-'             W:::W           W:::W          i::::::i n::::n    n::::n  gg::::::::::::::g  s:::::::::::ss  
-'              WWW             WWW           iiiiiiii nnnnnn    nnnnnn    gggggggg::::::g   sssssssssss    
-'                                                                                 g:::::g                  
-'                                                                     gggggg      g:::::g                  
-'                                                                     g:::::gg   gg:::::g                  
-'                                                                      g::::::ggg:::::::g                  
-'                                                                       gg:::::::::::::g                   
-'                                                                         ggg::::::ggg                     
-'                                                                            gggggg                       
-""")
+                            Good luck!!
+            """)
+
+    
