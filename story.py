@@ -35,7 +35,7 @@ wings_text = {
         Upon turning east, you face navigation problems, your compass
         begins to behave erratically and the GPS screen shows random locations.
         Now you are in trouble, if you can't rely on your instruments all
-        your navigational abilities are for nothing and this could end very badlly.
+        your navigational abilities are for nothing, this could end very badlly.
         
         You must choose between sticking with your current radio code
         or switching to an emergency frequency.
@@ -103,7 +103,7 @@ wings_text = {
         As relief sweeps over you, the altimeter warns you that you are low
         and losing height rapidly, you're going to have to land out.
         Thankfully you seem to be over fields, after a quick assessment
-        you pick one that looks flat and cow free!  
+        you pick one that looks flat and cow free!
         
         You must decide between an immediate landing or conducting a
         brief fly-by for assessment.
@@ -152,7 +152,7 @@ wings_text = {
 **--------------------------------------------------------------------------**
         Option 1: Do you choose '7700'?
         Option 2: Or one of the other codes?
-**--------------------------------------------------------------------------**                
+**--------------------------------------------------------------------------**
                 """,
                 "options": {
                     "option_1": "right_code",
@@ -181,17 +181,17 @@ wings_text = {
 **--------------------------------------------------------------------------**
         Option 1: Do you choose '7500'?
         Option 2: Or '7200'?
-**--------------------------------------------------------------------------**       
+**--------------------------------------------------------------------------**
                 """,
-                    "options": {
-                        "option_1": "wrong_code",
-                        "option_2": "alt_code"
-                    }
+                "options": {
+                    "option_1": "wrong_code",
+                    "option_2": "alt_code"
+                }
             },
 
             "wrong_code": {
                 "step_text": """
-**--------------------------------------------------------------------------**        
+**--------------------------------------------------------------------------**
         Almost immediately you realise that was the wrong code to use,
         suddenly there are weird lights all around you, you feel weightless,
         and trapped all at the same time!
@@ -416,8 +416,8 @@ wings_text = {
                 "outcome": "failure"
             },
 
-        "turn_land": {
-            "step_text": """
+            "turn_land": {
+                "step_text": """
 **--------------------------------------------------------------------------**
         You turn towards the possibility of land, the chance of a safe
         landing and survival.
