@@ -116,17 +116,17 @@ class Wings:
             if outcome == "success":
                 self.type_text("""
 **----------------------------------------------------------------------------**
-                ╔═╗┌─┐┌┐┌┌─┐┬─┐┌─┐┌┬┐┌─┐┬
-                ║  │ │││││ ┬├┬┘├─┤ │ └─┐│
-                ╚═╝└─┘┘└┘└─┘┴└─┴ ┴ ┴ └─┘o
+        ╔═╗┌─┐┌┐┌┌─┐┬─┐┌─┐┌┬┐┌─┐┬
+        ║  │ │││││ ┬├┬┘├─┤ │ └─┐│
+        ╚═╝└─┘┘└┘└─┘┴└─┴ ┴ ┴ └─┘o
 
-                You landed safely and survived your first major incident.
-                On your way home you stop at the local fish and chips shop
-                for a fish supper!
+        You landed safely and survived your first major incident.
+        On your way home you stop at the local fish and chips shop
+        for a fish supper!
 
-                After your adventure during the days flight you spend the
-                weekend relaxing and recovering so you can be ready for 
-                your final assesment, surely that will be easy after this...
+        After your adventure during the days flight you spend the
+        weekend relaxing and recovering so you can be ready for 
+        your final assesment, surely that will be easy after this...
 **----------------------------------------------------------------------------**
                     \n""")
                 self.restart_game()
@@ -134,10 +134,10 @@ class Wings:
             elif outcome == "failure":
                 self.type_text("""
 **----------------------------------------------------------------------------**
-                Did you survive?  Did you disapear like Amelia Earhart?
-                What happened to you and your plane?
-                These are questions that people ask for years, long after
-                the inquest has concluded...
+        Did you survive?  Did you disapear like Amelia Earhart?
+        What happened to you and your plane?
+        These are questions that people ask for years, long after
+        the inquest has concluded...
 **----------------------------------------------------------------------------**
                     \n""")
                 self.restart_game()
