@@ -35,19 +35,19 @@ def display_intro(self):
         Display the game's introduction.
         """
         # Credit for ASCII art: https://asciiart.website/index.php?art=transportation/airplanes
-    print("""
-                                   ____,
-                                  /  / ]
-                                 /  /  ]
-    |      ,======--_________,. '  /___]     __    __ _                 
-    |_____/____|___)                 _,.>   / / /\ \ (_)_ __   __ _ ___ 
-   <|          |        G-Wings ,. '`       \ \/  \/ / | '_ \ / _` / __|
-    |\         |          ,. '`              \  /\  /| | | | | (_| \__ \
-    | `,_______|____,. '`                     \/  \/ |_|_| |_|\__, |___/
-      ^          \                                               |___/  
-     (_)        (_)
-    """)
-    self.type_text("""
+        print("""
+                                           ____,
+                                          /  / ]
+                                         /  /  ]
+            |      ,======--_________,. '  /___]     __    __ _                 
+            |_____/____|___)                 _,.>   / / /\ \ (_)_ __   __ _ ___ 
+           <|          |        G-Wings ,. '`       \ \/  \/ / | '_ \ / _` / __|
+            |\         |          ,. '`              \  /\  /| | | | | (_| \__ \
+            | `,_______|____,. '`                     \/  \/ |_|_| |_|\__, |___/
+                ^          \                                          |___/  
+               (_)        (_)
+                """)
+        self.type_text("""
 **----------------------------------------------------------------------------**
                 G'day and welcome to "Wings" - an adventure
            that will challenge your sanity and flying expertise.
