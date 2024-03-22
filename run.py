@@ -163,7 +163,7 @@ class Wings:
                                 ).strip().lower()
 
             if play_choice.startswith('y'):
-                user_name = self.get_username_input()
+                user_name = self.get_username()
                 self.type_text(f"""
                        Welcome {user_name}!""")
                 print("""
