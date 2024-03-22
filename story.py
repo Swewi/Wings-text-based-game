@@ -33,9 +33,10 @@ wings_text = {
                 "step_text": """
 **--------------------------------------------------------------------------**
         Upon turning east, you face navigation problems, your compass
-        begins to behave erratically and the GPS screen shows random locations.
-        Now you are in trouble, if you can't rely on your instruments all
-        your navigational abilities are for nothing, this could end very badlly.
+        begins to behave erratically and the GPS screen shows random
+        locations.  Now you are in trouble, if you can't rely on your
+        instruments all your navigational abilities are for nothing,
+        this could end very badlly.
         
         You must choose between sticking with your current radio code
         or switching to an emergency frequency.
