@@ -3,18 +3,21 @@ import time
 
 from story import wings_text
 
+
 class Wings:
     """
     Wings class for a text-based adventure game.
     """
+
+
 def __init__(self):
         """
-        Initialize the Wings game.
-        It creates an instance of the Wings game, using the
-        'wings_text' dictionary to define the game's storyline and
-        choices.
+        Initialise the Wings game by creating an instance of the Wings class, 
+        using the 'wings_text' dictionary to define the 
+        game's storyline and choices.
         """
-        self.story_description = story_description
+self.story_description = story_description
+
 
 def type_text(self, text, delay=0.03):
         """
@@ -26,12 +29,12 @@ def type_text(self, text, delay=0.03):
             time.sleep(delay)
         print()
 
+
 def display_intro(self):
         """
         Display the game's introduction.
         """
-        # Credit for ASCII art: https://asciiart.website/index.php?art=transportation/airplanes adapted by me
-
+        # Credit for ASCII art: https://asciiart.website/index.php?art=transportation/airplanes
     print("""
                                    ____,
                                   /  / ]
@@ -85,14 +88,14 @@ def display_intro(self):
         Function to restart the game, regardless of outcome.
         """
         while True:
-            restart_choice = input("\nSo did you enjoy yourself? Do you want to play again?(yes/no): ").strip().lower()
+            restart_choice = input("\nSo, did you enjoy yourself? Do you want to play again?(yes/no): ").strip().lower()
             if restart_choice.startswith('y'):
                 self.start_game()
                 break
             elif restart_choice.startswith('n'):
                 self.type_text("""
     **------------------------------------------------------------**
-                       Thanks for playing!!
+                       Thanks for playing!
     **------------------------------------------------------------**
                    """)
                 break
@@ -134,7 +137,7 @@ def display_intro(self):
             elif outcome == "failure":
                 self.type_text("""
 **----------------------------------------------------------------------------**
-                Did you survive?  How did you disapear like Amelia Earhart?
+                Did you survive?  Did you disapear like Amelia Earhart?
                 What happened to you and your plane?
                 These are questions that people ask for years, long after
                 the inquest has concluded...
@@ -167,15 +170,15 @@ def display_intro(self):
                 self.type_text(f"""
                        Welcome {user_name}!""")
                 print("""
-         Taking off early in the morning you have a fairly simple 
-         out and return flight planned.  This will be your last flight 
+         Taking off early in the morning, you have a fairly simple 
+         'out and return' flight planned.  This will be your last flight 
          before the final assesement.  You are so close to your commercial 
          pilots licence, you can almost taste it.  Landing safely at the end
-         of your 'out' section of the flight, you park and go find some lunch
+         of your 'out' section of the flight, you park and go find some lunch,
          and maybe, more importantly, a bathroom!
 
-         After a sandwich and a cup of tea you get ready to take off on your
-         way home.  This should be a nice smooth flight home.
+         After a sandwich and a cup of tea, you get ready to take off on your
+         way home.  This should be a nice, smooth flight home.
                       """)
                 self.type_text(f"""
          The Air Traffic Controller is a friend of yours, their parting 
