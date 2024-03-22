@@ -37,7 +37,7 @@ wings_text = {
         locations.  Now you are in trouble, if you can't rely on your
         instruments all your navigational abilities are for nothing,
         this could end very badlly.
-        
+
         You must choose between sticking with your current radio code
         or switching to an emergency frequency.
 
@@ -59,7 +59,7 @@ wings_text = {
 **--------------------------------------------------------------------------**
         As you fly on you use the radio to contact air traffic control they
         inform you that you are close to land, but you can't see it.
-        
+
         Do you keep heading east and trust air traffic control?
 
 **--------------------------------------------------------------------------**
@@ -79,18 +79,18 @@ wings_text = {
         Despite your confusion, you maintain radio contact with air traffic
         control, who continue to assure you that you're over land,
         despite your view of nothing but ocean.
-        
+
         As the time ticks on you realise that your fuel is running out,
         even though you had plenty to get home and a healthy reserve
         the tanks are nearly empty.
-        
+
         Upon realizing your fuel is critically low, you're compelled to
         try a risky ocean landing, reminiscent of Captain Sully's
         famous maneuver...
                 """,
                 "options": {},
                 "outcome": "failure"
-            
+
             },
 
             "turn_away": {
@@ -100,12 +100,12 @@ wings_text = {
         navigating through the storm front, you realise this was a good choice,
         it wasn't nearly as bad as you thought, after successfully navigating
         the storm you see that you are over land.
-        
+
         As relief sweeps over you, the altimeter warns you that you are low
         and losing height rapidly, you're going to have to land out.
         Thankfully you seem to be over fields, after a quick assessment
         you pick one that looks flat and cow free!
-        
+
         You must decide between an immediate landing or conducting a
         brief fly-by for assessment.
 
@@ -134,7 +134,7 @@ wings_text = {
                 "step_text": """
 **--------------------------------------------------------------------------**
         Your cautious approach proves successful!
-        
+
         You identify a couple of potential hazards and execute a safe landing.
                 """,
                 "options": {},
@@ -147,7 +147,7 @@ wings_text = {
         You reach over to change radio codes, suddenly you have a
         brain fart and can't remember the right frequency.
         You know it starts with a 7 and has 4 digits.
-        
+
         The sticker on the dashboard has 3 codes which one do pick?
 
 **--------------------------------------------------------------------------**
@@ -165,7 +165,7 @@ wings_text = {
                 "step_text": """
 **--------------------------------------------------------------------------**
         Success!
-        
+
         Air Traffic Control contact you, realising that something is
         really wrong they send up an aircraft to find you and escort
         you to the nearest airfield...
@@ -196,7 +196,7 @@ wings_text = {
         Almost immediately you realise that was the wrong code to use,
         suddenly there are weird lights all around you, you feel weightless,
         and trapped all at the same time!
-        
+
         The aliens had finally got you…
                 """,
                 "options": {},
@@ -228,10 +228,10 @@ wings_text = {
         Although turning west takes you away from your destination
         it looks like the weather is beter in that direction,
         also you have plenty of fuel available.
-        
+
         After awhile you notice a break in the weather, it looks a bit
         like a valley!
-        
+
         Do you take a chance and fly through the weather valley?
 
 **--------------------------------------------------------------------------**
@@ -251,10 +251,10 @@ wings_text = {
         As you approach the weather valley you admire the texture of
         the clouds, it looks amazing from the outside, lets hope it's
         a good choice.
-        
+
         The weather valley proved to be a great option it was so smooth
         you make quick passage.
-        
+
         Once you are clear you need to choose a direction again.
 
 **--------------------------------------------------------------------------**
@@ -272,7 +272,7 @@ wings_text = {
                 "step_text": """
 **--------------------------------------------------------------------------**
         Looking west you realise the coast might be close!
-        
+
         Not only is it the coast, but it is part of the coast you recognise,
         you grew up around here and know where the local airfield is!
 
@@ -288,10 +288,10 @@ wings_text = {
         You can see lights off towards the east, maybe that's the coast?
         Turning east you fly on, mile upon mile of ocean flow under
         your wings slowly draining your concentration and focus.
-        
+
         You slowly realise that you don't seem to be getting closer
         to the land.
-        
+
         Do you turn towards the coast or continue on towards the lights?
 
 **--------------------------------------------------------------------------**
@@ -328,7 +328,7 @@ wings_text = {
                 "step_text": """
 **--------------------------------------------------------------------------**
         Oh dang it!
-        
+
         You realise way too late, you should have turned sooner,
         eventually you turn but too late...
 
@@ -343,11 +343,11 @@ wings_text = {
 **--------------------------------------------------------------------------**
         You can see lights in the distance and decide to continue on
         towards them thinking it's the coast.
-        
+
         As the miles role by you realise the lights are a lot further away,
         you have to decide when or if to turn back.
         Finding an alternative route might be your best option.
-        
+
         You let a few more miles role on before you make the decision.
 
 **--------------------------------------------------------------------------**
@@ -365,7 +365,7 @@ wings_text = {
                 "step_text": """
 **--------------------------------------------------------------------------**
         Well that was a mistake!
-        
+
         Aliens finally caught up with you...
                 """,
                 "options": {},
@@ -378,16 +378,16 @@ wings_text = {
         Having turned back you are conscious of your fuel consumption,
         and potential range remaining.
         You are starting to panic a little!
-        
+
         Working hard to focus on the situation and reverting to
         basic principles of scanning and looking, you refocus,
         it helps you realise that things aren't going well,
         your fuel is getting low, your flying hours are running out
         and night is coming in.
-        
+
         The storm front has well and truly passed by now,
         it has made the air clear and visibility is much higher now,
-        
+
         You can just about make out land off to your left.
         Do you turn towards it?
 
@@ -406,11 +406,11 @@ wings_text = {
                 "step_text": """
 **--------------------------------------------------------------------------**
         After a lot more miles you realise you made a massive mistake.
-        
+
         Your fuel gauge hits empty,
         the engine splutters,
         you do your best to maintain a sensible glide path.
-        
+
         Maybe you can survive this...
                 """,
                 "options": {},
@@ -422,9 +422,9 @@ wings_text = {
 **--------------------------------------------------------------------------**
         You turn towards the possibility of land, the chance of a safe
         landing and survival.
-        
+
         As you get closer the shadow resolves into land!
-        
+
         Although the area is unknown to you, flying over land is a huge relief,
         in the distance you can see a large open area that you can land in,
         it looks like a small airfield.
