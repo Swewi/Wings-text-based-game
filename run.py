@@ -193,7 +193,7 @@ def start_game(self):
             else:
                 print("Invalid choice. Enter 'yes' or 'no'")
 
-    if __name__ == "__main__":
+if __name__ == "__main__":
     """
     Creates an instance of the Wings class, initiates the game.
     """
