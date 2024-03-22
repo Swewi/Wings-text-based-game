@@ -46,12 +46,12 @@ def display_intro(self):
     """)
     self.type_text("""
 **----------------------------------------------------------------------------**
-                    Welcome to "Wings" - an adventure
+                G'day and welcome to "Wings" - an adventure
            that will challenge your sanity and flying expertise.
 **----------------------------------------------------------------------------**
         """)
         print("""
-         The goal of the game is to succesfully land your aircraft and survive!
+         The goal of the game is to succesfully land your aircraft!
                   You will be challenged at every step.
                           So choose wisely
 

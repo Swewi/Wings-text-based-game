@@ -127,7 +127,6 @@ wings_text = {
                 """,
                 "options": {},
                 "outcome": "failure"
-                }
             },
 
             "fly_past": {
@@ -359,6 +358,7 @@ wings_text = {
                     "option_1": "turn_back",
                     "option_2": "alt_lights"
                 }
+            },
 
             "alt_lights": {
                 "step_text": """
@@ -414,8 +414,7 @@ wings_text = {
                 """,
                 "options": {},
                 "outcome": "failure"
-            }
-        },
+            },
 
         "turn_land": {
             "step_text": """
@@ -434,3 +433,4 @@ wings_text = {
                 "options": {},
                 "outcome": "success"
             }
+}
