@@ -16,7 +16,7 @@ def __init__(self):
         using the 'wings_text' dictionary to define the 
         game's storyline and choices.
         """
-self.story_description = wings_text
+        self.story_description = wings_text
 
 
 def type_text(self, text, delay=0.03):
