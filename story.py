@@ -227,7 +227,7 @@ wings_text = {
 **--------------------------------------------------------------------------**
         Although turning west takes you away from your destination
         it looks like the weather is beter in that direction,
-        also you have plenty of fuel available.
+        and you have plenty of fuel.
 
         After awhile you notice a break in the weather, it looks a bit
         like a valley!
@@ -259,7 +259,7 @@ wings_text = {
 
 **--------------------------------------------------------------------------**
         Option 1: Turn West again?
-        Option 2: Or do you turn East this time?
+        Option 2: Or turn East this time?
 **--------------------------------------------------------------------------**
                 """,
                 "options": {
@@ -271,7 +271,7 @@ wings_text = {
             "west_again": {
                 "step_text": """
 **--------------------------------------------------------------------------**
-        Looking west you realise the coast might be close!
+        Looking west you realise you can just make out the coast!
 
         Not only is it the coast, but it is part of the coast you recognise,
         you grew up around here and know where the local airfield is!
@@ -296,7 +296,7 @@ wings_text = {
 
 **--------------------------------------------------------------------------**
         Option 1: Do you turn towards the coast?
-        Option 2: Or do you turn towards the lights?
+        Option 2: Or continue towards the lights?
 **--------------------------------------------------------------------------**
                 """,
                 "options": {
