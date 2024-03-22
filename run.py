@@ -58,7 +58,7 @@ def display_intro(self):
                     Will you accept the challenge?
             """)
 
-    def get_username(self):
+def get_username(self):
         """
         Prompt and validate user entered name.
         """
@@ -83,7 +83,7 @@ def display_intro(self):
             except ValueError as e:
                 print("Please try again.\n")
 
-    def restart_game(self):
+def restart_game(self):
         """
         Function to restart the game, regardless of outcome.
         """
@@ -102,7 +102,7 @@ def display_intro(self):
             else:
                 print("\nUmm what?!?! I need a 'yes' or 'no'.")
 
-    def play_game(self, current_step="start"):
+def play_game(self, current_step="start"):
         """
         Main function to play game text.
         """
@@ -156,7 +156,7 @@ def display_intro(self):
             else:
                 current_step = None
 
-    def start_game(self):
+def start_game(self):
         """
         Intro, rules, are you ready querry.  Validity of entered data.
         """
