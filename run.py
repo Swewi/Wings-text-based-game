@@ -124,9 +124,9 @@ class Wings:
         On your way home you stop at the local fish and chips shop
         for a fish supper!
 
-        After your adventure during the days flight you spend the
-        weekend relaxing and recovering so you can be ready for 
-        your final assesment, surely that will be easy after this...
+        After the days adventure you spend the weekend relaxing and
+        recovering so you can be ready for your final assesment,
+        surely that will be easy after this...
 **----------------------------------------------------------------------------**
                     \n""")
                 self.restart_game()
