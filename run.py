@@ -99,4 +99,58 @@ def display_intro(self):
             else:
                 print("\nUmm what?!?! I need a 'yes' or 'no'.")
 
+    def play_game(self, current_step="start"):
+        """
+        Main function to play game text.
+        """
+        while current_step:
+            step = self.story_description[current_step]
+            step_text = step["step_text"]
+            options = step["options"]
+            outcome = step.get("outcome")
+
+            # Display the current step's text
+            print(step_text)
+
+            # Display the options
+            if outcome == "success":
+                self.type_text("""
+**----------------------------------------------------------------------------**
+                ╔═╗┌─┐┌┐┌┌─┐┬─┐┌─┐┌┬┐┌─┐┬
+                ║  │ │││││ ┬├┬┘├─┤ │ └─┐│
+                ╚═╝└─┘┘└┘└─┘┴└─┴ ┴ ┴ └─┘o
+
+                You landed safely and survived your first major incident.
+                On your way home you stop at the local fish and chips shop
+                for a fish supper!
+
+                After your adventure during the days flight you spend the
+                weekend relaxing and recovering so you can be ready for 
+                your final assesment, surely that will be easy after this...
+**----------------------------------------------------------------------------**
+                    \n""")
+                self.restart_game()
+                break
+            elif outcome == "failure":
+                self.type_text("""
+**----------------------------------------------------------------------------**
+                Did you survive?  How did you disapear like Amelia Earhart?
+                What happened to you and your plane?
+                These are questions that people ask for years, long after
+                the inquest has concluded...
+**----------------------------------------------------------------------------**
+                    \n""")
+                self.restart_game()
+                break
+            if options:
+                choice = input("Enter your choice (either 1 or 2): "
+                               ).strip().lower()
+                while choice not in ["1", "2"]:
+                    print("\nInvalid choice. Please enter 1 or 2.")
+                    choice = input("\nEnter your choice (either 1 or 2): ").strip().lower()
+
+                current_step = options[f"option_{choice}"]
+            else:
+                current_step = None
+
     
