@@ -97,9 +97,8 @@ wings_text = {
                 "step_text": """
 **--------------------------------------------------------------------------**
         Trusting your instincts, you decide to alter your course,
-        navigating through the storm front, you realise this was a good choice,
-        it wasn't nearly as bad as you thought, after successfully navigating
-        the storm you see that you are over land.
+        and quickly realise you made a good choice, despite some cloud still
+        floating about you can see land ahead.
 
         As relief sweeps over you, the altimeter warns you that you are low
         and losing height rapidly, you're going to have to land out.
@@ -285,37 +284,18 @@ wings_text = {
             "east_again": {
                 "step_text": """
 **--------------------------------------------------------------------------**
-        You can see lights off towards the east, maybe that's the coast?
+        You can see lights off in the distance, that must be land?
         Turning east you fly on, mile upon mile of ocean flow under
         your wings slowly draining your concentration and focus.
 
         You slowly realise that you don't seem to be getting closer
-        to the land.
+        to the lights.
 
-        Do you turn towards the coast or continue on towards the lights?
+        Do you change direction or continue on towards the lights?
 
 **--------------------------------------------------------------------------**
-        Option 1: Do you turn towards the coast?
+        Option 1: Do you change direction?
         Option 2: Or continue towards the lights?
-**--------------------------------------------------------------------------**
-                """,
-                "options": {
-                    "option_1": "coastal_turn",
-                    "option_2": "the_lights"
-                }
-            },
-
-            "coastal_turn": {
-                "step_text": """
-**--------------------------------------------------------------------------**
-        You've got to a point where you are getting really tired,
-        you know 'get home itis' will kick in if you're not careful!
-
-        It's time to make a very hard choice.
-
-**--------------------------------------------------------------------------**
-        Option 1: Do you turn towards the coast?
-        Option 2: Or do you turn towards the lights?
 **--------------------------------------------------------------------------**
                 """,
                 "options": {
