@@ -1,16 +1,13 @@
 import sys
 import time
-
 from story import wings_text
-
 
 class Wings:
     """
     Wings class for a text-based adventure game.
     """
 
-
-def __init__(self):
+    def __init__(self):
         """
         Initialise the Wings game by creating an instance of the Wings class, 
         using the 'wings_text' dictionary to define the 
@@ -18,8 +15,7 @@ def __init__(self):
         """
         self.story_description = wings_text
 
-
-def type_text(self, text, delay=0.03):
+    def type_text(self, text, delay=0.03):
         """
         Print text with a typing effect.
         """
@@ -29,8 +25,7 @@ def type_text(self, text, delay=0.03):
             time.sleep(delay)
         print()
 
-
-def display_intro(self):
+    def display_intro(self):
         """
         Display the game's introduction.
         """
@@ -47,18 +42,20 @@ def display_intro(self):
                 ^          \                                          |___/  
                (_)        (_)
                 """)
+
         self.type_text("""
 **----------------------------------------------------------------------------**
                 G'day and welcome to "Wings" - an adventure
            that will challenge your sanity and flying expertise.
 **----------------------------------------------------------------------------**
         """)
+
         print("""
          The goal of the game is to succesfully land your aircraft!
                     Will you accept the challenge?
             """)
 
-def get_username(self):
+    def get_username(self):
         """
         Prompt and validate user entered name.
         """
@@ -83,7 +80,7 @@ def get_username(self):
             except ValueError as e:
                 print("Please try again.\n")
 
-def restart_game(self):
+    def restart_game(self):
         """
         Function to restart the game, regardless of outcome.
         """
@@ -102,7 +99,7 @@ def restart_game(self):
             else:
                 print("\nUmm what?!?! I need a 'yes' or 'no'.")
 
-def play_game(self, current_step="start"):
+    def play_game(self, current_step="start"):
         """
         Main function to play game text.
         """
@@ -139,7 +136,7 @@ def play_game(self, current_step="start"):
 **----------------------------------------------------------------------------**
                 Did you survive?  Did you disapear like Amelia Earhart?
                 What happened to you and your plane?
-                These are questions that people ask for years, long after
+                These are are questions that people ask for years, long after
                 the inquest has concluded...
 **----------------------------------------------------------------------------**
                     \n""")
