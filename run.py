@@ -136,7 +136,7 @@ class Wings:
 **----------------------------------------------------------------------------**
                 Did you survive?  Did you disapear like Amelia Earhart?
                 What happened to you and your plane?
-                These are are questions that people ask for years, long after
+                These are questions that people ask for years, long after
                 the inquest has concluded...
 **----------------------------------------------------------------------------**
                     \n""")
@@ -153,7 +153,7 @@ class Wings:
             else:
                 current_step = None
 
-def start_game(self):
+    def start_game(self):
         """
         Intro, rules, are you ready querry.  Validity of entered data.
         """
