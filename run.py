@@ -153,4 +153,47 @@ def display_intro(self):
             else:
                 current_step = None
 
-    
+    def start_game(self):
+        """
+        Intro, rules, are you ready querry.  Validity of entered data.
+        """
+        self.display_intro()
+        while True:
+            play_choice = input("\nAre you ready to play? (yes/no): "
+                                ).strip().lower()
+
+            if play_choice.startswith('y'):
+                user_name = self.get_username_input()
+                self.type_text(f"""
+                       Welcome {user_name}!""")
+                print("""
+         Taking off early in the morning you have a fairly simple 
+         out and return flight planned.  This will be your last flight 
+         before the final assesement.  You are so close to your commercial 
+         pilots licence, you can almost taste it.  Landing safely at the end
+         of your 'out' section of the flight, you park and go find some lunch
+         and maybe, more importantly, a bathroom!
+
+         After a sandwich and a cup of tea you get ready to take off on your
+         way home.  This should be a nice smooth flight home.
+                      """)
+                self.type_text(f"""
+         The Air Traffic Controller is a friend of yours, their parting 
+         comment 'See you next weekend {user_name}, I'm looking forward to 
+         celebrating with you.  Good luck mate!'.
+                """)
+                self.play_game()
+                break
+            elif play_choice.startswith('n'):
+                print("\nWell this is awkward, don't you want to get home?")
+                print("Are you sure you don't want to play? If you do please type 'yes' and hit enter\n")
+            else:
+                print("Invalid choice. Enter 'yes' or 'no'")
+
+    if __name__ == "__main__":
+    """
+    Creates an instance of the Wings class, initiates the game.
+    """
+    game = Wings()
+
+    game.start_game()
