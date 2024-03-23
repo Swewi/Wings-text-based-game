@@ -18,9 +18,9 @@ in essence, a 'choose your own' adventure.
 ## How to play
 
 The game is based on "Choose your own adventure" books from the 80's and 90's, you can read more about
-the books here: ![Wikipedia](https://en.wikipedia.org/wiki/Choose_Your_Own_Adventure)
+the books here: [Wikipedia](https://en.wikipedia.org/wiki/Choose_Your_Own_Adventure)
 
-Steps for playing:
+#### Steps for playing:
 * Upon entering the game space you are asked if you want to proceed.
 * Promted to enter your name, there are several validation stages to ensure a valid name entry, each will repromt if error triggered.
 * Enter the game space.
@@ -30,4 +30,7 @@ Steps for playing:
 * You are promted to choocse between restart or stop.
 * If you restarted the game loops back to the beginning.
 
+## Features
+
+### Exhisting Features
 
