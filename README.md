@@ -34,3 +34,10 @@ the books here: [Wikipedia](https://en.wikipedia.org/wiki/Choose_Your_Own_Advent
 
 ### Exhisting Features
 
+#### Welcome Screen
+
+* You are greeted with an ascii-art image, and a 'typewriter' style printed message welcoming you and inviting you to play the game.
+* A goal statement is also printed.
+
+![Screenshot of the Welcome screen](assets/images/readme/welcome-screen.png)
+<br>
