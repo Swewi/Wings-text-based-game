@@ -194,3 +194,19 @@ This time I had to fix a couple of syntax errors, I had forgotten to change the 
 There seems to be one error that is inherant in text based apps, the user can interfere with the display by hitting letters on the keyboard
 while the text is being generated.  I am sure there is a solution but I haven't found one so for now it remains.
 
+# Technologies
+
+This is a list of technologies used during the construction and testing of the site:
+***
+* [Gitpod](https://gitpod.io/workspaces) IDE to develop the website.
+* [Github](https://github.com/Swewi) To host the source code and GitHub Pages to deploy and host the live site.
+* Git to provide version control (to commit and push code to the repository).
+* Code Institute's Gitpod Template to generate the workspace for the project.
+* [Ascii art](https://asciiart.website/index.php?art=transportation/airplanes) Used to create the ASCII airplane.
+* [Ascii art archive](https://www.asciiart.eu/text-to-ascii-art) Used to create the ASCII words.
+* [ViewPDF](https://www.viewpdf.com/result.html?e=0&c=pdf-to-images#) Converts PDF to JPG.
+* [Bytesresponsive](https://bytes.dev/?s=amiresponsive) Used to create responsive image.
+* [TinyJPG](https://tinyjpg.com/) To compress images for README.
+* [ChatGPT](https://chat.openai.com/) Used for spelling, grammer, and readability checks.
+* [Code Institutes pep8 checker](https://pep8ci.herokuapp.com/) Used to check the python code.
+* [Mural](https://app.mural.co/t/wingspythonproject38385/home) USed to create the flow chart.
