@@ -39,5 +39,15 @@ the books here: [Wikipedia](https://en.wikipedia.org/wiki/Choose_Your_Own_Advent
 * You are greeted with an ascii-art image, and a 'typewriter' style printed message welcoming you and inviting you to play the game.
 * A goal statement is also printed.
 
-![Screenshot of the Welcome screen](assets/images/readme/welcome-screen.png)
+![Screenshot of the Welcome screen](assets/images/readme/start-screen.png)
 <br>
+
+#### Start Game
+
+* After selecting 'yes' the game begins.
+* You are promted with a username entry, here there are multiple validation steps to ensure valid entry.
+* If you selected 'no' there is a querry if this was accurate.
+
+![Screenshoot of the Start game screen](assets/images/readme/welcome-screen.png)
+<br>
+
