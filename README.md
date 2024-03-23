@@ -51,3 +51,13 @@ the books here: [Wikipedia](https://en.wikipedia.org/wiki/Choose_Your_Own_Advent
 ![Screenshoot of the Start game screen](assets/images/readme/welcome-screen.png)
 <br>
 
+#### Story
+
+* After a valid name entry you are greeted and introduced to the outline of the game.
+* There is a little background text here explaining where you are.
+* Then you find yourself making the decisions, the input required is based on binary, option 1 or 2, your choice will 
+lead on to success or failure.
+
+![Screenshot of option selection](assets/images/readme/options-menu.png)
+<br>
+
