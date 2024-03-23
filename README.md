@@ -114,3 +114,6 @@ The dictionary contains the game's story line, choices, and outcomes structured 
     - Input Validation: Each user input is validated and handled raising appropriate error depending on game stage and option to re-enter user input is provided if it is invalid.
 
 * ##### Structure
+    - Separation of Concerns: Separated the game logic from the data(story line) and the presentation (text-based input and output) to follow a good design practice and keep code well-maintained.
+    - The game defines various locations and sub locations, and the player can navigate through these
+areas based on their choices. The game uses text-based print statements to provide descriptions, dialogues, and narrations to convey the story and set more engaging atmosphere.
