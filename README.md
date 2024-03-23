@@ -125,11 +125,30 @@ because this app is not designed to be responsive, it runs in a third party term
 
 #### Manual Testing
 
-* I have personally tested this is as many ways as I could think of:
+* I have personally tested the input for name entry in as many ways as I could think of:
     - At the username input stage:
         - I have inserted empty space into a string.
         - I have left the entry blank.
         - I used less letters than minimum.
         - I have used special characters.
+    - At the options input stage:
+        - I have tried using non-numeric characters.
+        - I have left the entry blank.
+        - I have tried special characters.
+    - At the replay input stage:
+        - I have tried using non-numeric characters.
+        - I have left the entry blank.
+        - I have tried special characters.
 
-In all cases I expected to be reprompted to enter, and I was.
+    In all cases I expected to be reprompted to enter, and I was.
+
+* Code :
+    - Python code is tested using Code Institute PYTHON LINTER, with no errors. Code passed through and confirmed no problems.
+
+######    run.py result:
+![Screenshot of run.py result](assets/images/readme/run-debug.png)
+<br>
+
+######    story.py result:
+![Screenshot of story.py result](assets/images/readme/story-debug.png)
+<br>
