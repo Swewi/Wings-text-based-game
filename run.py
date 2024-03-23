@@ -2,6 +2,7 @@ import sys
 import time
 from story import wings_text
 
+
 class Wings:
     """
     Wings class for a text-based adventure game.
@@ -9,8 +10,8 @@ class Wings:
 
     def __init__(self):
         """
-        Initialise the Wings game by creating an instance of the Wings class, 
-        using the 'wings_text' dictionary to define the 
+        Initialise the Wings game by creating an instance of the Wings class,
+        using the 'wings_text' dictionary to define the
         game's storyline and choices.
         """
         self.story_description = wings_text
@@ -29,7 +30,6 @@ class Wings:
         """
         Display the game's introduction.
         """
-        # Credit for ASCII art: https://asciiart.website/index.php?art=transportation/airplanes
         print("""
                                    ____,
                                   /  / ]
@@ -65,15 +65,15 @@ class Wings:
 
                 # Checks if the username is empty or contains only spaces
                 if not username.strip():
-                    raise ValueError("Username cannot be empty or contain only spaces.")
+                    raise ValueError("Cannot be empty or only spaces.")
 
                 # Checks if the username contains special characters
                 if not username.isalnum():
-                    raise ValueError("Username should contain only letters and numbers.")
+                    raise ValueError("Should contain only letters and nums.")
 
                 # Checks if the username is too short or too long
                 if len(username) < 3 or len(username) > 20:
-                    raise ValueError("Username length should be between 3 and 20 characters.")  
+                    raise ValueError("Length should be between 3 and 20 chars.")
 
                 return username
 
@@ -167,9 +167,9 @@ class Wings:
                 self.type_text(f"""
                        Welcome {user_name}!""")
                 print("""
-         Taking off early in the morning, you have a fairly simple 
-         'out and return' flight planned.  This will be your last flight 
-         before the final assesement.  You are so close to your commercial 
+         Taking off early in the morning, you have a fairly simple
+         'out and return' flight planned.  This will be your last flight
+         before the final assesement.  You are so close to your commercial
          pilots licence, you can almost taste it.  Landing safely at the end
          of your 'out' section of the flight, you park and go find some lunch,
          and maybe, more importantly, a bathroom!
@@ -178,17 +178,18 @@ class Wings:
          way home.  This should be a nice, smooth flight home.
                       """)
                 self.type_text(f"""
-         The Air Traffic Controller is a friend of yours, their parting 
-         comment 'See you next weekend {user_name}, I'm looking forward to 
+         The Air Traffic Controller is a friend of yours, their parting
+         comment 'See you next weekend {user_name}, I'm looking forward to
          celebrating with you.  Good luck mate!'.
                 """)
                 self.play_game()
                 break
             elif play_choice.startswith('n'):
                 print("\nWell this is awkward, don't you want to get home?")
-                print("Are you sure you don't want to play? If you do please type 'yes' and hit enter\n")
+                print("Are you sure you don't want to play? Type 'yes' then hit enter to play\n")
             else:
                 print("Invalid choice. Enter 'yes' or 'no'")
+
 
 if __name__ == "__main__":
     """
