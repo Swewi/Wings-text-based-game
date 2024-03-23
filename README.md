@@ -245,3 +245,37 @@ This is a list of technologies used during the construction and testing of the s
 * For more details on how to fork the repo, in order to for example suggest any changes to the project you can:
 [Forking a Repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
 
+## Deploying the app
+
+* The app is deployed from Heroku using the following steps:
+    - Use: pip freeze > requirements.txt to add external libraries to deployed app.
+    - Create Heroku account.
+    - In the top right, click 'New'.
+    - Click 'Create new app'.
+    - Give your app a name and select your region from drop down.
+    - Click 'Create new app'.
+    - Go to 'settings' tab, it's important you do it before deployment.
+    - Scroll down to 'config vars' section and key: PORT and value: 8000.
+    - Scroll down to 'Buildpacks' section.
+    - Click 'Add buildpack'.
+    - Add Python as first dependency and select 'Save changes'.
+    - Add node.js as a second dependency and save again (This is settings section done).
+    - Select 'Deploy' tab at the top.
+    - Select 'Github' from 'Deployment method'.
+    - Type the name given to your project in Github and click 'search'.
+    - Scroll down and select Manual deployment method.
+    - You can also use Auto deployment method to allow the project to update every time you push the code.
+    - You can now click to view the app ready and running.
+
+###### Important Information about forking a repository
+* The web application is displayed and deployed using template provided by Code Institute to test the code.
+* For this project I used Manual deployment method to deploy the current state of the branch, every time I pushed the code from Gitpod.
+
+# Credits
+
+* The code for typewriter effect is referred from https://github.com/Pauldwyer/Choose-your-adventure/blob/main/stories.py
+* The implementation of this 'Choose your own Adventure' idea, and general encouragement when I felt lost, my mentor, Ronan McClelland.
+* Stack Overflow.
+* Code Institute mock terminal template to run the app.
+* Code Institute's 'Love Sandwiches' project.
+* My partner for understanding why I am working at the weekend.
