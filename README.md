@@ -109,5 +109,8 @@ The dictionary contains the game's story line, choices, and outcomes structured 
     - "outcome": Outcome of the current step ("success" or "failure").
 * Keys: Strings representing different steps in the game.
 
-* ##### Logic-sheet
+* ##### Logic
+    - Functions: To keep code readable and reusable, functions(play_game, display_intro, start_game, get_username) are used to display the game's introduction and loop through the game's story, displaying text, options, and handle user choices, leading to different outcomes.
+    - Input Validation: Each user input is validated and handled raising appropriate error depending on game stage and option to re-enter user input is provided if it is invalid.
 
+* ##### Structure

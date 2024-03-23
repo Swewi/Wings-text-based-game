@@ -16,7 +16,7 @@ class Wings:
         """
         self.story_description = wings_text
 
-    def type_text(self, text, delay=0.03):
+    def type_text(self, text, delay=0.02):
         """
         Print text with a typing effect.
         """
@@ -165,7 +165,7 @@ class Wings:
             if play_choice.startswith('y'):
                 user_name = self.get_username()
                 self.type_text(f"""
-                       Welcome {user_name}!""")
+                       Welcome {user_name.capitalize()}!""")
                 print("""
          Taking off early in the morning, you have a fairly simple
          'out and return' flight planned.  This will be your last flight
@@ -179,7 +179,7 @@ class Wings:
                       """)
                 self.type_text(f"""
          The Air Traffic Controller is a friend of yours, their parting
-         comment 'See you next weekend {user_name}, I'm looking forward to
+         comment 'See you next weekend {user_name.capitalize()}, I'm looking forward to
          celebrating with you.  Good luck mate!'.
                 """)
                 self.play_game()
