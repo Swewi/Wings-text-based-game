@@ -61,3 +61,17 @@ lead on to success or failure.
 ![Screenshot of option selection](assets/images/readme/options-menu.png)
 <br>
 
+#### Conclusion
+
+* As you progress through the story you will reach 'end points', some of these are win conditions, some are loose conditions.
+* Both have unique statements on completion.
+* After you have seen a completion screen you are presented with an option to play again, or quit.
+
+![Screenshot of win condition](assets/images/readme/success.png)
+<br>
+
+![Screenshot of loose condition](assets/images/readme/failure.png)
+<br>
+
+![Screenshot of play again option](assets/images/readme/conclusion.png)
+<br>
