@@ -175,3 +175,22 @@ User testing:
 * I want replay-ability.
     - The user drives the story line, there are multiple conclusions to play through.
 
+## Bugs
+
+I had to run the code through the Code Institutes pep8 checker multiple times:
+* First run, it came back with dozens of errors, mostly blank space on story.py.
+    - Fixed the blank space errors with patience and carefully checking each line - these errors occured because I copied text from the google sheets doc I used.
+* Second run, it returned a couple of undefined variables on story.py.
+    - Fixed these by checking I had copied the variable names and replacing them where needed.
+* Third run, switching to run.py, I had very similar issues to those I experienced with story.py.
+    - Fixed these by again checking line by line for white space, no syntax errors this time though.
+
+Once everything passed the Code Institute pep8 checker I deployed, and the next round of checks began:
+
+This time I had to fix a couple of syntax errors, I had forgotten to change the variable names from the story.py...
+
+## Unfixed Bugs
+
+There seems to be one error that is inherant in text based apps, the user can interfere with the display by hitting letters on the keyboard
+while the text is being generated.  I am sure there is a solution but I haven't found one so for now it remains.
+
