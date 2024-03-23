@@ -91,3 +91,14 @@ where I had made mistakes.
 ![Screenshot of the flowchart I used for this project](assets/images/readme/flowchart.png)
 <br>
 
+Once I had created the flowchart, I started writing the code:
+
+* ##### Class
+I created a single class that interacts with the story dictionary I have created.  Using a class allows me to encapsulate the both
+the functionality and the story.
+
+* ##### Dictionary
+I used a dictionary to store the story text and allow me to structure it so that it can flow.  It also allowed me to separate the games
+'logic' from it's 'data'.
+
+The dictionary contains the game's story line, choices, and outcomes structured as follows:
