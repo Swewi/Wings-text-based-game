@@ -156,21 +156,22 @@ because this app is not designed to be responsive, it runs in a third party term
 ### Testing for storyline
 
 User testing:
-    * I want to understand the purpose of the site/game.
-        - The ascii code art and welcome screen shows the user what the site/game is about.
-    * I want the navigation to be intuitive and easy to understand.
-        - The user is provided with easy to understand options and easily navigable interface.
-    * I want to be able to decide to start the game, and not worry about captalisation or typing yes/no.
-        - The user can opt in or out of the game, although they will be re-promted in case of an error, username can be entered lowercase or
+
+* I want to understand the purpose of the site/game.
+    - The ascii code art and welcome screen shows the user what the site/game is about.
+* I want the navigation to be intuitive and easy to understand.
+    - The user is provided with easy to understand options and easily navigable interface.
+* I want to be able to decide to start the game, and not worry about captalisation or typing yes/no.
+    - The user can opt in or out of the game, although they will be re-promted in case of an error, username can be entered lowercase or
         captilised, or uppercase for the really bold statement.  Yes/No options can be typed in full or as a simple y/n.
-    * I want to be able to enter my name and have it acknowledged.
-        - The user can enter their name, it will be checked for a validitiy, then they will be welcomed and inserted into the story line.
-    * I want to be able to keep story flowing and recieve a message at the conclusion of the storyline.
-        - The user drives the story, their input at the options section is how the story line is generated, whether positive or negative there
+* I want to be able to enter my name and have it acknowledged.
+    - The user can enter their name, it will be checked for a validitiy, then they will be welcomed and inserted into the story line.
+* I want to be able to keep story flowing and recieve a message at the conclusion of the storyline.
+    - The user drives the story, their input at the options section is how the story line is generated, whether positive or negative there
         is an end screen for the game.
-    * I want to play again.
-        - Whether you win or loose the user will be promted with the option to replay, depending on the choice the game will either replay
+* I want to play again.
+    - Whether you win or loose the user will be promted with the option to replay, depending on the choice the game will either replay
         or terminate.
-    * I want replay-ability.
-        - The user drives the story line, there are multiple conclusions to play through.
+* I want replay-ability.
+    - The user drives the story line, there are multiple conclusions to play through.
 
