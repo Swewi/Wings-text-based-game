@@ -75,3 +75,19 @@ lead on to success or failure.
 
 ![Screenshot of play again option](assets/images/readme/conclusion.png)
 <br>
+
+### Future Features
+
+* Add colour to make the game look better.
+* Use an API link google sheets to rework and extend the story line.
+* Impliment scoreboard tracking individual players.
+* Make game so multiple people are capable to play and track their scores, comparing to other players.
+
+## Data Model
+
+Before I started thinking about the code I used a flowchart to design the story arc, from the entry point to the end points.  This
+allowed me visualise the paths I needed to create to ensure a good flow, it also allowed me to back-track when bug testing and discover
+where I had made mistakes.
+![Screenshot of the flowchart I used for this project](assets/images/readme/flowchart.png)
+<br>
+
