@@ -210,3 +210,38 @@ This is a list of technologies used during the construction and testing of the s
 * [ChatGPT](https://chat.openai.com/) Used for spelling, grammer, and readability checks.
 * [Code Institutes pep8 checker](https://pep8ci.herokuapp.com/) Used to check the python code.
 * [Mural](https://app.mural.co/t/wingspythonproject38385/home) USed to create the flow chart.
+
+### Imports and Repositories Used
+
+* sys: used for handling standard input and output streams during typewriter effect.
+* time: used for controlling the timing of text output game for typewriter effect.
+* [Wings Repo](https://github.com/Swewi/Wings-text-based-game/tree/main)
+
+# Deployment
+## Cloning the Repository
+
+* On Github navigate to the repository "https://github.com/Swewi/Wings-text-based-game/tree/main"
+* Click "Code" drop down menu - a green button shown right above the file list.
+* Copy the URL of the repository using "HTTPS", "SSH" or "Github CLI".
+* Open Git Bash.
+* Change the current working directory to the location where you want the cloned directory.
+* Type "git clone", and then paste the URL copied earlier.
+* Press enter to create local clone. A clone of the repository will now be created.
+
+* For more details on how to clone the repository in order to create a copy for own use refer to the site:
+[Cloning a Repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
+
+## Forking a Repository
+
+* On Github navigate to the repository "https://github.com/Swewi/Wings-text-based-game/tree/main"
+* Click "Fork" located towards top right corner on GitHub page.
+* Select "owner" for the forked repository from the dropdown menu under "owner".
+* It will create forked repo under the same name as original by default. But you can type a name in "Repository name" or add a description in "Description" box.
+* Click on "Create fork". A forked repo is created.
+
+###### Important Information about forking a repository
+* Forking allows you to make any changes without affecting original project. You can send the the suggestions by submitting a pull request. Then the Project Owner can review the pull request before accepting the suggestions and merging them.
+* When you have fork to a repository, you don't have access to files locally on your device, for getting access you will need to clone the forked repository.
+* For more details on how to fork the repo, in order to for example suggest any changes to the project you can:
+[Forking a Repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
+
