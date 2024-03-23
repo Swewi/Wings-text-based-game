@@ -102,3 +102,4 @@ I used a dictionary to store the story text and allow me to structure it so that
 'logic' from it's 'data'.
 
 The dictionary contains the game's story line, choices, and outcomes structured as follows:
+* - Values: Dictionaries containing:
