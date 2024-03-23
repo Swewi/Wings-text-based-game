@@ -65,14 +65,17 @@ class Wings:
 
                 # Checks if the username is empty or contains only spaces
                 if not username.strip():
+                    print("Sorry your entry must contain letters and/or numbers")
                     raise ValueError("Cannot be empty or only spaces.")
 
                 # Checks if the username contains special characters
                 if not username.isalnum():
+                    print("Sorry your entry can't contain special characters")
                     raise ValueError("Should contain only letters and nums.")
 
                 # Checks if the username is too short or too long
                 if len(username) < 3 or len(username) > 20:
+                    print("Place ensure your entry is between 3 and 20 characters long")
                     raise ValueError("Length should be between 3 and 20 chars.")
 
                 return username

@@ -117,3 +117,19 @@ The dictionary contains the game's story line, choices, and outcomes structured 
     - Separation of Concerns: Separated the game logic from the data(story line) and the presentation (text-based input and output) to follow a good design practice and keep code well-maintained.
     - The game defines various locations and sub locations, and the player can navigate through these
 areas based on their choices. The game uses text-based print statements to provide descriptions, dialogues, and narrations to convey the story and set more engaging atmosphere.
+
+## Testing
+
+* I have considered running this program through lighthouse to check the accessability rating and performance output, but decided not to
+because this app is not designed to be responsive, it runs in a third party terminal created by Code Institute.
+
+#### Manual Testing
+
+* I have personally tested this is as many ways as I could think of:
+    - At the username input stage:
+        - I have inserted empty space into a string.
+        - I have left the entry blank.
+        - I used less letters than minimum.
+        - I have used special characters.
+
+In all cases I expected to be reprompted to enter, and I was.
