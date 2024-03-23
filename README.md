@@ -102,6 +102,12 @@ I used a dictionary to store the story text and allow me to structure it so that
 'logic' from it's 'data'.
 
 The dictionary contains the game's story line, choices, and outcomes structured as follows:
-*    
-- Values: Dictionaries containing:
+
+* Values: Dictionaries containing:
+    - "step_text": Text describing the current step.
+    - "options" (Dictionary): Available choices and their corresponding steps.
+    - "outcome": Outcome of the current step ("success" or "failure").
+* Keys: Strings representing different steps in the game.
+
+* ##### Logic-sheet
 
